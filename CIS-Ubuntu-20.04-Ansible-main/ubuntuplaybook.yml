@@ -1,0 +1,8 @@
+---
+
+- hosts: localhost
+  connection: local
+  become: true
+  ignore_errors: true
+  roles:
+    - Ubuntu20Config
